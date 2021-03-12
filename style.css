@@ -10,15 +10,17 @@ body {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
 }
-input,
-button {
+
+input, button {
     outline: 0;
 }
+
 .content {
     width: 1170px;
     margin: 0 auto;
     padding: 0 30px;
 }
+
 header#main-header {
     height: 46px;
     background: #fff;
@@ -26,38 +28,45 @@ header#main-header {
     position: relative;
     z-index: 1;
 }
+
 header#main-header .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100%;
 }
+
 header#main-header nav ul {
     display: flex;
     list-style: none;
 }
+
 header#main-header nav ul li {
     display: flex;
     /* align-items: center; */
-
     font-size: 13px;
     color: #667580;
     font-weight: bold;
     margin-left: 30px;
 }
+
 header#main-header nav ul li:first-child {
     margin: 0;
 }
+
 header#main-header nav ul li i {
     margin-right: 7px;
 }
+
 header#main-header i.fa-twitter {
     color: #3bb9e3;
 }
+
 header#main-header div.side {
     display: flex;
     align-items: center;
 }
+
 header#main-header div.side input {
     background: #f5f8fa;
     border: 1px solid #e6ecf0;
@@ -67,6 +76,7 @@ header#main-header div.side input {
     font-size: 12px;
     color: #667581;
 }
+
 header#main-header div.side img {
     height: 34px;
     width: 34px;
@@ -74,14 +84,13 @@ header#main-header div.side img {
     text-align: center;
     margin: 0 15px;
 }
+
 header#main-header div.side button {
     height: 34px;
     background: #3bb9e3;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     width: 90px;
     font-weight: bold;
     font-size: 14px;
@@ -89,6 +98,7 @@ header#main-header div.side button {
     border: 0;
     border-radius: 16px;
 }
+
 div.banner {
     height: 380px;
     width: 100%;
@@ -98,11 +108,13 @@ div.banner {
     justify-content: center;
     color: #fff;
 }
+
 div.bar {
     height: 59px;
     background: #fff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
+
 div.bar .content {
     display: flex;
     justify-content: space-between;
@@ -110,11 +122,13 @@ div.bar .content {
     padding-left: 285px;
     height: 100%;
 }
+
 div.bar .content ul {
     display: flex;
     list-style: none;
     height: inherit;
 }
+
 div.bar .content ul li {
     display: flex;
     flex-direction: column;
@@ -123,6 +137,7 @@ div.bar .content ul li {
     padding: 0 15px;
     position: relative;
 }
+
 div.bar .content ul li.active::after {
     content: "";
     position: absolute;
@@ -132,11 +147,13 @@ div.bar .content ul li.active::after {
     height: 2px;
     background: #3bb9e3;
 }
+
 div.bar .content ul li span {
     color: #667580;
     font-size: 12px;
     font-weight: bold;
 }
+
 div.bar .content ul li strong {
     color: #667580;
     font-size: 18px;
@@ -147,17 +164,17 @@ div.bar .content ul li strong {
 div.bar .content ul li.active strong {
     color: #3bb9e3;
 }
+
 div.bar .content .actions {
     display: flex;
     align-items: center;
 }
+
 div.bar .content .actions button {
     height: 34px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     width: 90px;
     font-weight: bold;
     font-size: 14px;
@@ -166,15 +183,19 @@ div.bar .content .actions button {
     border-radius: 16px;
     margin-right: 20px;
 }
+
 div.bar .content .actions i {
     color: #3bb9e3;
 }
+
 div.wrapper-content {
     display: flex;
 }
+
 div.wrapper-content aside.profile {
     width: 260px;
 }
+
 div.wrapper-content aside.profile img.avatar {
     width: 200px;
     height: 200px;
@@ -182,57 +203,69 @@ div.wrapper-content aside.profile img.avatar {
     border: 5px solid #fff;
     margin-top: -130px;
 }
+
 div.wrapper-content aside.profile h1 {
     font-size: 21px;
     color: #1f2226;
     margin-top: 10px;
 }
+
 div.wrapper-content aside.profile span {
     font-size: 14px;
     color: #53626c;
 }
+
 div.wrapper-content aside.profile p {
     font-size: 14px;
     color: #1f2226;
     margin-top: 15px;
 }
+
 div.wrapper-content aside.profile ul.list {
     margin-top: 15px;
     list-style: none;
 }
+
 div.wrapper-content aside.profile ul.list li {
     font-size: 14px;
     color: #657786;
     margin-top: 5px;
     display: flex;
 }
+
 div.wrapper-content aside.profile ul.list li:first-child {
     margin: 0;
 }
+
 div.wrapper-content aside.profile ul.list li i {
     margin-right: 10px;
     width: 14px;
     height: 14px;
 }
+
 div.wrapper-content aside.profile .widget {
     margin-top: 20px;
 }
+
 div.wrapper-content aside.profile .widget strong {
     font-weight: normal;
     color: #3bb9e3;
     font-size: 14px;
 }
+
 div.wrapper-content aside.profile .widget strong i {
     width: 14px;
     height: 14px;
     margin-right: 5px;
 }
+
 div.wrapper-content aside.profile .followers ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
 }
+
 div.wrapper-content aside.profile .followers ul li {
     width: 45px;
     height: 45px;
@@ -243,12 +276,14 @@ div.wrapper-content aside.profile .followers ul li {
     margin-right: 5px;
     margin-bottom: 5px;
 }
+
 div.wrapper-content aside.profile .images ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
 }
+
 div.wrapper-content aside.profile .images ul li {
     width: 80px;
     height: 80px;
@@ -259,25 +294,107 @@ div.wrapper-content aside.profile .images ul li {
     margin-bottom: 5px;
     border-radius: 5px;
 }
+
 div.wrapper-content .timeline {
     flex: 1;
+    background: #fff;
+    margin: 10px 20px;
 }
+
+div.wrapper-content .timeline nav {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 15px;
+}
+
+div.wrapper-content .timeline nav a {
+    text-decoration: none;
+    color: #3bb9e3;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+div.wrapper-content .timeline nav a:first {
+    margin: 0;
+}
+
+div.wrapper-content .timeline nav a.active {
+    color: #1f1f1f;
+}
+
+div.wrapper-content .timeline ul.tweets {
+    list-style: none;
+}
+
+div.wrapper-content .timeline ul.tweets li {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 15px;
+    display: flex;
+}
+
+div.wrapper-content .timeline ul.tweets li img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+div.wrapper-content .timeline ul.tweets li .info {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+div.wrapper-content .timeline ul.tweets li .info strong {
+    font-size: 14px;
+    color: #1f2226;
+}
+div.wrapper-content .timeline ul.tweets li .info strong span {
+    font-weight: normal;
+    font-size: 13px;
+    color: #7b8b9a;
+}
+div.wrapper-content .timeline ul.tweets li .info p {
+    font-size: 14px;
+    color: #1f2226;
+    margin-top: 5px;
+}
+div.wrapper-content .timeline ul.tweets li .actions {
+    display: flex;
+    margin-top: 20px;
+}
+div.wrapper-content .timeline ul.tweets li .actions a {
+    text-decoration: none;
+    color: #667580;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 30px;
+}
+div.wrapper-content .timeline ul.tweets li .actions a:first-child {
+    margin-left: 0;
+}
+div.wrapper-content .timeline ul.tweets li .actions a i {
+    margin-right: 5px;
+}
+
 div.wrapper-content aside.widgets {
     width: 290px;
     margin-top: 10px;
 }
+
 div.wrapper-content aside.widgets .widget {
     background: #fff;
     padding: 15px;
 }
+
 div.wrapper-content aside.widgets .widget .title {
     display: flex;
     align-items: baseline;
 }
+
 div.wrapper-content aside.widgets .widget .title strong {
     font-size: 18px;
     color: #1f2226;
 }
+
 div.wrapper-content aside.widgets .widget .title a {
     color: #3bb9e3;
     font-size: 12px;
@@ -285,6 +402,7 @@ div.wrapper-content aside.widgets .widget .title a {
     position: relative;
     padding-left: 10px;
 }
+
 div.wrapper-content aside.widgets .widget .title a::before {
     content: "";
     width: 2px;
@@ -295,10 +413,12 @@ div.wrapper-content aside.widgets .widget .title a::before {
     left: 4px;
     top: 6px;
 }
+
 div.wrapper-content aside.widgets .follow ul {
     list-style: none;
     margin-top: 10px;
 }
+
 div.wrapper-content aside.widgets .follow ul li {
     display: flex;
     justify-content: space-between;
@@ -306,41 +426,46 @@ div.wrapper-content aside.widgets .follow ul li {
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
+
 div.wrapper-content aside.widgets .follow ul li:last-child {
     margin-bottom: 0;
     padding-bottom: 0;
     border-bottom: 0;
 }
+
 div.wrapper-content aside.widgets .follow ul li .profile {
     display: flex;
     align-items: center;
 }
+
 div.wrapper-content aside.widgets .follow ul li .profile img {
     width: 48px;
     height: 48px;
     border-radius: 50%;
 }
+
 div.wrapper-content aside.widgets .follow ul li .profile .info {
     margin-left: 10px;
     display: flex;
     flex-direction: column;
 }
+
 div.wrapper-content aside.widgets .follow ul li .profile .info strong {
     font-size: 14px;
     color: #1f1f1f;
 }
-div.wrapper-content aside.widgets .follow ul li .profile .info strong span{
+
+div.wrapper-content aside.widgets .follow ul li .profile .info strong span {
     font-weight: normal;
     color: #9a9a9a;
 }
-div.wrapper-content aside.widgets .follow ul li .profile .info button{
+
+div.wrapper-content aside.widgets .follow ul li .profile .info button {
     height: 27px;
     margin-top: 4px;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-    
     width: 90px;
     font-weight: bold;
     font-size: 14px;
@@ -348,9 +473,9 @@ div.wrapper-content aside.widgets .follow ul li .profile .info button{
     border: 1px solid #3bb9e3;
     border-radius: 16px;
 }
-div.wrapper-content aside.widgets .follow ul li > a {
+
+div.wrapper-content aside.widgets .follow ul li>a {
     color: #ccd6dd;
     text-decoration: none;
     font-size: 14px;
-
 }
